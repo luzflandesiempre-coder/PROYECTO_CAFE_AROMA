@@ -1,0 +1,192 @@
+/* ------------------------------
+   ESTILOS GENERALES
+--------------------------------- */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf6f8;
+    color: #3e2723;
+}
+
+
+/* ------------------------------
+   ENCABEZADO
+--------------------------------- */
+
+.encabezado {
+    background-color: #6f4e37;
+    color: white;
+    padding: 25px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.encabezado p {
+    margin-top: 8px;
+}
+
+
+/* ------------------------------
+   BARRA DE NAVEGACIÓN
+--------------------------------- */
+
+.navbar {
+    background-color: #3e2723 !important;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+
+/* ------------------------------
+   PORTADA
+--------------------------------- */
+
+.hero {
+    background: linear-gradient(
+        rgba(62, 39, 35, 0.7),
+        rgba(62, 39, 35, 0.7)
+    ),
+    url("img/cafe1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
+/* ------------------------------
+   BOTÓN
+--------------------------------- */
+
+.btn-cafe {
+    background-color: #c68b59;
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Cuando pasamos el ratón */
+
+.btn-cafe:hover {
+
+    background-color: #8b5e3c;
+
+    color: white;
+
+    transform: translateY(-6px) scale(1.05);
+
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ------------------------------
+   PRODUCTOS
+--------------------------------- */
+
+.productos {
+    padding: 60px 20px;
+}
+
+.titulo-seccion {
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    font-size: 35px;
+
+    color: #6f4e37;
+}
+
+
+/* ------------------------------
+   TARJETAS
+--------------------------------- */
+
+.cafe-card {
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+    transition: transform 0.3s ease;
+}
+
+
+/* Movimiento de la tarjeta */
+
+.cafe-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+/* Imagen */
+
+.cafe-card img {
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+
+/* Título */
+
+.card-title {
+
+    color: #6f4e37;
+
+    font-weight: bold;
+
+}
+
+
+/* ------------------------------
+   PIE DE PÁGINA
+--------------------------------- */
+
+.footer {
+
+    background-color: #3e2723;
+
+    color: white;
+
+    padding: 25px;
+
+} 
